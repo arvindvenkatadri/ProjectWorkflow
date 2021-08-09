@@ -1,0 +1,330 @@
+baseURL: "/"
+title: hugo-theme-w3css-basic exampleSite
+theme: hugo-theme-w3css-basic
+languageCode: en-us
+defaultContentLanguage: en
+enableEmoji: yes
+summaryLength: 70
+paginate: 6
+disqusShortname: it-gro-github-io-hugo-theme-w3css-basic-github-io
+pygmentsUseClassic: no
+pygmentsCodeFences: yes
+pygmentsCodeFencesGuessSyntax: yes
+pygmentsUseClasses: yes
+disableRSS: no
+rssLimit: 10
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+    - RSS
+imaging:
+  anchor: smart
+  quality: 75
+  resampleFilter: box
+taxonomies:
+  category: categories
+  tag: tags
+Permalinks:
+  blog: /blog/:year/:month/:day/:filename/
+menu:
+  main:
+    - name: Home
+      pre: fas fa-home
+      url: /index.html
+      weight: 1
+    - name: Contact
+      pre: far fa-address-card
+      url: /contact
+      weight: 2
+    - name: Pages
+      pre: fas fa-list
+      url: /pages
+      weight: 3
+    - identifier: theme
+      name: Theme
+      pre: fas fa-info-circle
+      weight: 4
+    - name: About
+      parent: theme
+      pre: fas fa-info fa-fw
+      url: /pages/hugo-theme-w3css-basic/
+      weight: 1
+    - name: Images
+      parent: theme
+      pre: far fa-images fa-fw
+      url: /pages/hugo-theme-w3css-basic/images-taken-from/
+      weight: 2
+    - name: Showcase
+      parent: theme
+      pre: fas fa-eye fa-fw
+      url: /pages/showcase/
+      weight: 3
+    - name: Blog
+      pre: fas fa-rss
+      url: /blog
+      weight: 5
+    - name: FAQ
+      pre: far fa-question-circle
+      url: /faq
+      weight: 6
+  topbar:
+    - name: GitHub
+      pre: fab fa-github
+      url: https://github.com/it-gro/hugo-theme-w3css-basic
+      weight: 1
+    - name: GitLab
+      pre: fab fa-gitlab
+      url: https://gitlab.com/it-gro
+      weight: 2
+    - name: Email
+      pre: fas fa-envelope
+      url: '#address'
+      weight: 5
+    - name: Search
+      pre: fas fa-search
+      url: /search
+      weight: 6
+params:
+  aboutUs: "Vel illum **dolore** eu\r\n\r\n  * feugiat nulla\r\n  * facilisis at vero.\r\n\r\nNam
+    vestibulum accumsan nisl.\r\n\r\n              "
+  address: "**nobis eleifend**          \r\n**Soluta nobis eleifend**   \r\nillum
+    dolore eu feugiat     \r\n3612 Steffisburg            \r\nconsectetuer adipiscing
+    \    \r\n\r\n**Switzerland**\r\n              "
+  anchor:
+    enable: yes
+    icon: fas fa-anchor
+  authorName: anonymous
+  blog:
+    icon: fas fa-rss
+    subtitle: "ultricies eget, tempor sit amet, ante\r\n             "
+    title: Blog
+  bottomLeft: Copyright (c) 2019, *lobortis nisl* ut aliquip ex ea commodo consequat
+  bottomRight: 'created with [Hugo](https://gohugo.io) '
+  clients:
+    enable: yes
+    imgMaxHeight: 100px
+    imgMaxWidth: 100px
+    resImgCmd: Resize
+    resImgCmdOpt: 100x
+    subtitle: "Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse\r\n**molestie
+      consequat**, vel illum dolore.\r\n             "
+    title: Our Clients
+  color404Container: w3-theme-l3
+  colorAlertDanger: w3-red
+  colorAlertDark: w3-dark-grey
+  colorAlertInfo: w3-light-blue
+  colorAlertLight: w3-grey
+  colorAlertPrimary: w3-purple
+  colorAlertSecondary: w3-aqua
+  colorAlertSuccess: w3-light-green
+  colorAlertWarning: w3-yellow
+  colorBaseofCanvas: w3-theme-l4
+  colorBaseofPanel: w3-theme-l2
+  colorBlogListCard: w3-theme-l3
+  colorBlogListCell: w3-theme-l4
+  colorBlogListContainer: w3-theme-l4
+  colorContactFormPanel: w3-theme-d3
+  colorContactMapCard: w3-theme-l2
+  colorContactMapPanel: w3-theme-l2
+  colorDisqusButton: w3-theme-l3
+  colorFooterBottomCell: w3-theme-l3
+  colorFooterButton: w3-theme-l4
+  colorFooterContainer: w3-theme-d5
+  colorFrontClientsCard: w3-theme-l2
+  colorFrontClientsContainer: w3-theme-l3
+  colorFrontFeaturesCard: w3-theme-l3
+  colorFrontFeaturesContainer: w3-theme-l4
+  colorFrontJumbotronsContainer: w3-theme-l2
+  colorFrontJumbotronsSection: w3-theme-l4
+  colorFrontPhotocardsCard: w3-theme-l1
+  colorFrontPhotocardsCardContainer: w3-theme-l1
+  colorFrontPhotocardsContainer: w3-theme-l3
+  colorFrontRecentPostsCard: w3-theme-l4
+  colorFrontRecentPostsCardButton: w3-theme-l4
+  colorFrontRecentPostsContainer: w3-theme-l3
+  colorFrontRecentPostsTitleCard: w3-theme-l2
+  colorFrontSeeMoreButton: w3-theme-l4
+  colorFrontSeeMoreContainer: w3-theme-l4
+  colorFrontSeeMoreText: w3-text-white
+  colorFrontTestimonialsCarouselCard: w3-theme-l5
+  colorFrontTestimonialsContainer: w3-theme-l4
+  colorFrontTestimonialsTitleCard: w3-theme-l2
+  colorHeaderMarquee: w3-theme-l1
+  colorHeaderNav: w3-theme-dark
+  colorPageNavBreadcrumpBar: w3-theme-d3
+  colorPageNavCardsCard: w3-theme-d3
+  colorPageNavCardsContainer: w3-theme-l3
+  colorPageNavCardsLink: w3-theme-l3
+  colorPagesListCard: w3-theme-l3
+  colorPagesListCell: w3-theme-l4
+  colorPagesListContainer: w3-theme-l4
+  colorPaginatorBar: w3-theme-l1
+  colorRelatedBar: w3-theme-l3
+  colorSearchGoogleGcseContainer: w3-theme-l3
+  colorTaxonomyBar: w3-theme-l1
+  colorTaxonomyCard: w3-theme-l3
+  colorTaxonomyCell: w3-theme-l4
+  colorTaxonomyContainer: w3-theme-l4
+  colorTaxonomyPanel: w3-theme-l2
+  colorTermsPanel: w3-theme-l2
+  contactFormInclEmail: yes
+  cookieconsent:
+    buttonBackground: '#666'
+    buttonText: '#fff'
+    enable: yes
+    href: https://cookiesandyou.com
+    popupBackground: '#fff'
+    popupText: '#444'
+    position: bottom-left
+    theme: classic
+  custom_css: []
+  custom_js_bottom: []
+  custom_js_top: []
+  debug: no
+  defaultDescription: example site created with hugo using theme hugo-theme-w3css-basic
+  defaultKeywords:
+    - foo
+    - bar
+  disqusButtonShow: no
+  disqusButtonShowCount: no
+  email: info@example.com
+  enableGoogleGtag: no
+  enableHC: yes
+  envGoogleMapsApiKey: GoogleMapsApiKey
+  favicon:
+    enable: no
+    maskIcon: '#5bbad5'
+    msapplicationTileColor: '#da532c'
+    path: /images/favicons
+    themeColor: '#ffffff'
+    version: a_random_value
+  features:
+    animate: no
+    enable: yes
+    limitTo: 6
+  fontsUseGoogleApis: yes
+  footerContactButton: contact/index.md
+  formspree: formspree.io
+  gallery: {}
+  googleApiFonts:
+    family:
+      fallbackHeading: h1
+      fallbackMono: pre
+      fallbackText: html
+      h1:
+        sans-serif: Signika
+      html:
+        sans-serif: Ubuntu
+      pre:
+        monospace: Ubuntu Mono
+      tagsHeading:
+        - h1
+        - h2
+        - h3
+        - h4
+        - h5
+        - h6
+      tagsMono:
+        - pre
+        - code
+        - kbd
+        - samp
+        - data
+      tagsText:
+        - html
+        - body
+        - time
+      time:
+        cursive: Creepster
+  googleCustomSearchCX: 002931815551392744433:tnypjyusk2e
+  googleMapsZoom: 3
+  jumbotrons:
+    enable: yes
+  latitude: 46.946692
+  longitude: 7.444186
+  marquee:
+    enable: yes
+    file: .marquee.md
+  menuConfig:
+    smallDispMenuCollapse: yes
+    smallDispMenuCollapseIcon: fas fa-caret-square-down
+    smallDispMenuMaxChars: 4
+  menuTopBar:
+    googleTranslateEnable: yes
+    googleTranslateShowOnHome: no
+    numOfItemsIfMediumDisplay: 3
+    numOfItemsIfSmallDisplay: 1
+    numOfItemsIfSmallDisplayCollapsed: 6
+    socialEnable: yes
+    themeColorSelectorEnable: yes
+  options:
+    jsHistoryNav: yes
+    jsHistoryNavForward: no
+    navBreadcrumpHome: no
+    navBreadcrumpTitle: yes
+    showNavBreadcrump: yes
+    showNavUp: yes
+  photocards:
+    animate: yes
+    enable: yes
+    limitTo: 3
+    resImgCmd: Resize
+    resImgCmdOpt: 300x
+  recentPosts:
+    enableFooter: yes
+    enableFront: yes
+    footerNumOfPosts: 5
+    subtitle: "Pellentesque habitant morbi tristique senectus et netus et malesuada\r\nfames
+      ac.\r\n             "
+    title: From our Blog
+  related:
+    enable: yes
+    limitTo: 5
+  resFigure:
+    defaultImgCaption: '%%T'
+    defaultImgCmd: Resize
+    defaultImgCmdOpt: 300x
+    defaultMatch: '**/*'
+    defaultResPagePath: .na.real
+  resGallery:
+    defaulImgCmd: Resize
+    defaulImgCmdOpt: 800x
+    defaulThumbCmd: Fit
+    defaultCaptionLong: '%%F'
+    defaultCaptionShort: '%%N'
+    defaultMatch: '**/*'
+    defaultResPagePath: resources/images
+    defaultThumbCmdOpt: 120x120
+  resources:
+    defaultResPagePath: resources/images
+  seeMore:
+    enable: yes
+    icon: far fa-file-code
+    linkText: consectetuer adipiscing
+    linkUrl: /pages
+    subtitle: "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper\r\nsuscipit
+      lobortis nisl ut aliquip ex ea commodo consequat.\r\n              "
+    title: Do You want to see More?
+  taxonomies: {}
+  teaserTruncateSummary: 200
+  testimonials:
+    enable: yes
+    subtitle: "Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+      ut\r\nlabore et dolore magna aliquyam erat, sed diam voluptua.\r\n             "
+    title: Testimonials
+  traceFlags: html-comment
+  truncateSummaryForMetaDescription: 120
+  uglyURLs: no
+  uglyUrl: .html
+  w3cssColorTheme: /vendor/w3css/4/color_of_the_year/w3-theme-color-of-year-2018-ceylon-yellow.css
+blackfriday:
+  hrefTargetBlank: yes
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
